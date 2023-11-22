@@ -1,0 +1,15 @@
+import math
+a=float(input())
+b=float(input())
+d=loat(input())
+e=b**2-4*a*d
+if e>0:
+  f=math.sqr(e)
+  x1=((-1)*b+f)/2/a/d
+  x2=((-1)*b-f)/2/a/d
+  print(x1,x2)
+elif e==0:
+  x=-b/a/d/2
+  print(x)
+else e<0:
+  print("error")
